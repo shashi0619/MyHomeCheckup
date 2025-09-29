@@ -5,8 +5,6 @@ import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Provider from "@/components/HOC/Provider";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
-import { BsWhatsapp } from "react-icons/bs";
-import WhatsApp from "./whatsapp";
 import WhatsAppButton from "./whatsapp";
 
 const font = Rajdhani({

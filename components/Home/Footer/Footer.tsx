@@ -7,7 +7,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { GrTechnology } from "react-icons/gr";
 
 const Footer = () => {
   return (

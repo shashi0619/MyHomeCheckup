@@ -3,8 +3,9 @@ import ThemeToogler from "@/components/Helper/ThemeToogler";
 import { NavLinks } from "@/constant/constant";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { GrTechnology } from "react-icons/gr";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import Image from "next/image";
+
 
 type Props = {
   openNav: () => void;
@@ -34,8 +35,7 @@ const Nav = ({ openNav }: Props) => {
         {/* LOGO */}
         <div className="flex items-center space-x-2">
          <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
-      <img src="/images/WL2.png" alt="logo" className="w-12 h-12"
-      />
+      <Image src="/images/WL2.png" alt="logo" className="w-12 h-12"/>
     </div>
 
           <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">

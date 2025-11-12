@@ -12,26 +12,27 @@ const Blog = () => {
         </h1>
         {/* Heading */}
         <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-          Ready Our Latest Insights from <br /> Our Blog Posts
+          Why Choose MyHomeCheckup
+ Inspection Services?<br /> Our Blog Posts
         </h1>
       </div>
       <div className="w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         <div data-aos="fade-right">
           <BlogCard
-            image="/images/b1.png"
-            title="Expert Advice for Growing Your Digital Presence"
+            image="/images/img1.jpg"
+            title="Every nook and corner of your home by a MyHomeCheckup expert"
           />
         </div>
         <div data-aos="fade-right" data-aos-delay="100">
           <BlogCard
-            image="/images/b2.png"
-            title="Data-Driven Strategies and Case Studies Success"
+            image="/images/img2.jpg"
+            title="Significant defects before you take possession of your property"
           />
         </div>
         <div data-aos="fade-right" data-aos-delay="200">
           <BlogCard
-            image="/images/b3.png"
-            title="The Complete SEO Blog for Digital Success"
+            image="/images/img3.jpg"
+            title="Your investment by verifying what has been promised by the builder/contractor"
           />
         </div>
       </div>

@@ -26,13 +26,13 @@ const About = () => {
             <div className="flex items-center gap-4">
               <Image src="/images/a1.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                IT Infrastucture <br /> Management
+                Quality of your Home<br /> Management
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a2.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Cloud Integration <br /> Service Provide
+                400+Checkpoints <br /> Service Provide
               </h1>
             </div>
           </div>
@@ -40,13 +40,13 @@ const About = () => {
             <div className="flex items-center gap-4">
               <Image src="/images/a3.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Custom Software <br /> Development
+                Property Inspection <br /> Development
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a4.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Instant Supports <br /> any Queries
+                Free Consultation <br /> any Queries
               </h1>
             </div>
           </div>

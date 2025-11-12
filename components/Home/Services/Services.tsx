@@ -78,7 +78,7 @@ const Services = () => {
             data-aos-delay="500"
           >
             <ServiceCard
-              image="/images/ss6.png"
+              image="/images/ss5.png"
               title="Pest & Termite Inspection"
             />
           </div>

@@ -13,8 +13,9 @@ const Blog = () => {
         {/* Heading */}
         <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
           Why Choose MyHomeCheckup
- Inspection Services?<br /> Our Blog Posts
+          Inspection Services?<br /> Expert insights, real inspection stories, and tips to help you protect your home investment.
         </h1>
+        
       </div>
       <div className="w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         <div data-aos="fade-right">

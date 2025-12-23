@@ -12,11 +12,11 @@ const WhyChoose = () => {
         <div>
           {/* Subheading */}
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-700 dark:text-pink-500 uppercase">
-            Why Choose Us?
+            Why Choose MyHomeCheckup?
           </p>
           {/* Heading */}
           <h1 className="text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]">
-            Innovations Excellence Building Digital Future Together
+            Innovation, Excellence & Building Trust Together
           </h1>
           {/* line */}
           <div className="mt-8 mb-8 w-full h-[1px] bg-gray-200 dark:bg-gray-700"></div>
@@ -27,10 +27,9 @@ const WhyChoose = () => {
               <FaRegFileCode className="w-8 h-8 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-xl font-bold">Free Integration</h1>
+              <h1 className="text-xl font-bold">Free Consultation</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage existing top-line technology maximize cost
-                effective service done
+                Understand inspection findings and next steps clearly
               </p>
             </div>
           </div>
@@ -42,8 +41,7 @@ const WhyChoose = () => {
             <div className="flex-1">
               <h1 className="text-xl font-bold">Premium Resources</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage existing top-line technology maximize cost
-                effective service done
+                Advanced tools like moisture meters & thermal cameras
               </p>
             </div>
           </div>
@@ -53,10 +51,9 @@ const WhyChoose = () => {
               <BiSupport className="w-8 h-8 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-xl font-bold">Unlimited Supports</h1>
+              <h1 className="text-xl font-bold">Unlimited Support</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage existing top-line technology maximize cost
-                effective service done
+                Post-inspection guidance until issues are resolved
               </p>
             </div>
           </div>

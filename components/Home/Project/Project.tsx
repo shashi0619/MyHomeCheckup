@@ -14,6 +14,7 @@ const Project = () => {
             <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
               Driving Change with Innovative Successful Projects
             </h1>
+            <p className="text-lg">Our hands-on inspections across apartments, villas, and independent houses ensure quality workmanship and customer satisfaction at every stage.</p>
           </div>
           <div className="lg:ml-auto">
             <a
@@ -70,4 +71,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Project; 

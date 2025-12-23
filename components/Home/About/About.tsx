@@ -15,24 +15,21 @@ const About = () => {
             About Us
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]">
-            Innovations Excellence Building Digital Future Together
-          </h1>
+Innovation, Excellence & Building Trust Together          </h1>
           <p className="mt-3 text-gray-700 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            nihil amet expedita hic eveniet necessitatibus iure atque illo vero
-            saepe!
+            At MyHomeCheckup, we combine technical expertise with modern inspection tools to deliver accurate, unbiased, and transparent property inspection services. Our goal is to help homeowners, buyers, and investors make informed decisions with confidence.
           </p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
             <div className="flex items-center gap-4">
               <Image src="/images/a1.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Quality of your Home<br /> Management
+                Quality-focused inspection methodology
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a2.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                400+Checkpoints <br /> Service Provide
+                Professionally trained inspection engineers
               </h1>
             </div>
           </div>
@@ -40,13 +37,13 @@ const About = () => {
             <div className="flex items-center gap-4">
               <Image src="/images/a3.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Property Inspection <br /> Development
+                Digital reports with clear observations
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a4.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Free Consultation <br /> any Queries
+                Free expert consultation post inspection
               </h1>
             </div>
           </div>

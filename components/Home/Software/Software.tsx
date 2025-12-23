@@ -1,5 +1,7 @@
 import React from "react";
 import SoftwareCard from "./SoftwareCard";
+import SoftwareCard2 from "./Softwarecard2";
+import SoftwareCard3 from "./SoftwareCard3";
 
 const Software = () => {
   return (
@@ -13,6 +15,7 @@ const Software = () => {
         <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
           Enabling Quality Living <br /> Get a Detailed Report
         </h1>
+        <p>Each inspection comes with a comprehensive report highlighting defects, severity, and recommended corrective actions—easy to understand and builder-friendly.</p>
       </div>
       {/* Cards */}
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
@@ -24,14 +27,14 @@ const Software = () => {
           data-aos-anchor-placement="top-center"
           data-aos-delay="100"
         >
-          <SoftwareCard icon="/images/i2.png" title="RWA Handover" />
+          <SoftwareCard2 icon="/images/i2.png" title="Pre-Handover Inspection" />
         </div>
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
         >
-          <SoftwareCard icon="/images/i3.png" title="Dampness Check" />
+          <SoftwareCard3 icon="/images/i3.png" title="Snagging Check" />
         </div>
       </div>
     </div>

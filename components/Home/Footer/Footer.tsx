@@ -23,8 +23,7 @@ const Footer = () => {
             </h1>
           </div>
           <p className="mt-4 text-gray-200 font-medium">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-            ullam consequuntur voluptate eligendi, blanditiis ab quae maiores!
+            Inspect Smart. Live Safe. Invest Confidently.
           </p>
           {/* socials links */}
           <div className="mt-6 flex items-center space-x-2">
@@ -65,13 +64,14 @@ const Footer = () => {
           <div className="mt-6">
             <h1 className="text-sm text-white">Our Mobile Phone</h1>
             <h1 className="text-base font-bold text-yellow-300 mt-1">
-              +910000000000
+              +918019500400
             </h1>
           </div>
           <div className="mt-6">
             <h1 className="text-sm text-white">Our Email</h1>
             <h1 className="text-base font-bold text-yellow-300 mt-1">
-              example@gmail.com
+              hitworkhub@gmail.com
+
             </h1>
           </div>
         </div>

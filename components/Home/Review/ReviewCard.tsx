@@ -21,9 +21,7 @@ const ReviewCard = ({ reviewTitle, role, userImage, userName }: Props) => {
         <FaStar className="text-yellow-500 w-5 h-6" />
       </div>
       <p className="mt-4 text-base md:text-lg font-medium text-gray-800">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
-        officiis laudantium numquam aliquam eum veniam ad sit. Excepturi, ex
-        nisi.
+        They offer great service at a very reasonable price, even lower than local contractors, with a customer-friendly payment process. I booked them for the waterproofing and painting in my house, and they did a great job. 
       </p>
       <span className="block w-full h-[1px] bg-gray-300 mt-6 mb-6"></span>
       <div className="flex items-center justify-between">

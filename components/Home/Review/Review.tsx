@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ReviewCard from "./ReviewCard";
+import ReviewCard2 from "./ReviewCard2";
 
 const responsive = {
   desktop: {
@@ -33,7 +34,7 @@ const Review = () => {
               TESTIMONIALS
             </h1>
             <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-              Trusted By Industry Leaders Clietns Testimonial
+              Trusted By Industry Leaders Clietns
             </h1>
           </div>
           <div className="lg:ml-auto">
@@ -55,22 +56,22 @@ const Review = () => {
             autoPlaySpeed={4000}
           >
             <ReviewCard
-              reviewTitle="Great Work!"
-              userName="Jassica Doe"
+              reviewTitle="Highly Professional, Great Work!!"
+              userName="sakshi"
               userImage="/images/c1.png"
-              role="UI UX Desinger"
+              role="project Manager"
             />
-            <ReviewCard
+            <ReviewCard2
               reviewTitle="Creative Work!"
               userName="Jany Doe"
               userImage="/images/c2.png"
-              role="Web Developer"
+              role="Marketing Manager"
             />
-            <ReviewCard
+            <ReviewCard2
               reviewTitle="Awesome Work!"
               userName="Jason Doe"
               userImage="/images/c3.png"
-              role="App Developer"
+              role="building Engineer"
             />
           </Carousel>
         </div>

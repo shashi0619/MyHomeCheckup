@@ -1,5 +1,10 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
+import ServiceCard2 from "./ServiceCard2";
+import ServiceCard3 from "./ServiceCard3";
+import ServiceCard4 from "./ServiceCard4";
+import ServiceCard5 from "./ServiceCard5";
+import ServiceCard6 from "./ServiceCard6";
 
 const Services = () => {
   return (
@@ -37,7 +42,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="100"
           >
-            <ServiceCard
+            <ServiceCard2
               image="/images/ss2.png"
               title="Structural & Civil Checks"
             />
@@ -47,7 +52,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="200"
           >
-            <ServiceCard
+            <ServiceCard3
               image="/images/ss3.png"
               title="Plumbing & Water Systems"
             />
@@ -57,7 +62,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="300"
           >
-            <ServiceCard
+            <ServiceCard4
               image="/images/ss4.png"
               title="Electrical & Safety Checks"
             />
@@ -67,7 +72,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="400"
           >
-            <ServiceCard
+            <ServiceCard5
               image="/images/ss7.png"
               title="HVAC & Appliances Check"
             />
@@ -77,7 +82,7 @@ const Services = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="500"
           >
-            <ServiceCard
+            <ServiceCard6
               image="/images/ss5.png"
               title="Pest & Termite Inspection"
             />

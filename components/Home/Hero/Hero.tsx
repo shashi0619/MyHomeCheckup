@@ -14,14 +14,14 @@ const Hero = () => {
           {/* Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-7xl mt-6 mb-6 font-bold text-white leading-[2.5rem] md:leading-[4rem] ">
             #1Hyderabad’s <br />
-            End-to-End  by Certified Experts
-            <span className="text-yellow-300"> Home Inspection</span>
+             End-to-End <br />
+             <span className="text-yellow-300"> Home Inspection</span> by Certified Experts
+            
           </h1>
 
           {/* Description */}
           <p className="text-sm sm:text-base font-medium md:text-lg text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            veniam nesciunt odio exercitationem, alias eius maiores tempora
+            Ensure your dream home is built to the highest standards. Our certified inspectors deliver comprehensive civil, electrical, plumbing, and safety inspections using advanced tools—so you move in with confidence and clarity.
           </p>
           {/* Button */}
           <a
@@ -30,7 +30,7 @@ const Hero = () => {
           >
             <span className="w-48 h-48 rounded rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
             <span className="relative w-full text-left font-bold text-black transition-colors duration-300 ease-in-out group-hover:text-white">
-              Discover More
+              Book an Inspection
             </span>
           </a>
         </div>

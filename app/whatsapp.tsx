@@ -4,7 +4,7 @@ const WhatsApp = () => {
   return (
     <div className="fixed bottom-24 animate-bounce  right-6 z-50">
       <a
-        href=""
+        href="https://wa.me/message/FQY6LOCNXHCOD1"
         target="_blank"
         rel="noopener noreferrer"
       >

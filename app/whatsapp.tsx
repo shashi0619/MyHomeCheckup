@@ -14,6 +14,7 @@ const WhatsApp = () => {
           className="h-12 w-12 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
         />
       </a>
+      
     </div>
   );
 };

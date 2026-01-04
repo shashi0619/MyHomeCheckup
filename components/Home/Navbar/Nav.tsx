@@ -66,7 +66,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4">
           {/* 1st button create account button */}
           <a
-            href="#"
+            href="https://calendly.com/hitworkhub"
             className="px-5 py-2.5 relative rounded group font-medium text-white inline-block"
           >
             <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>

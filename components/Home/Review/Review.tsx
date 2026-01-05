@@ -63,13 +63,13 @@ const Review = () => {
             />
             <ReviewCard2
               reviewTitle="Creative Work!"
-              userName="Jany Doe"
+              userName="Hari"
               userImage="/images/c2.png"
               role="Marketing Manager"
             />
             <ReviewCard2
               reviewTitle="Awesome Work!"
-              userName="Jason Doe"
+              userName="Thilak"
               userImage="/images/c3.png"
               role="building Engineer"
             />

@@ -14,7 +14,7 @@ const font = Rajdhani({
 
 export const metadata: Metadata = {
   title: "HydCivil",
-  description: "Software Landing Page using Next.js",
+  description: "Home inspection ",
 };
 
 export default function RootLayout({

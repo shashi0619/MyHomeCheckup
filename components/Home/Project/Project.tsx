@@ -42,14 +42,14 @@ const Project = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="200"
           >
-            <Image src="/images/H5.JPG" alt="image" width={600} height={600} />       
+            <Image src="/images/H1.jpg" alt="image" width={600} height={600} />
           </div>
           <div
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
             data-aos-delay="300"
           >
-            <Image src="/images/H6.JPG" alt="image" width={600} height={600} />
+            <Image src="/images/H2.jpg" alt="image" width={600} height={600} />
           </div>
           <div
             data-aos="zoom-in"

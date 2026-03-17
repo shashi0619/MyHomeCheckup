@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 type Props = {
@@ -21,7 +20,7 @@ const ServiceCard = ({ image, title }: Props) => {
         {title}
       </h1>
       <p className="mt-4 font-medium text-gray-500 dark:text-gray-200 group-hover:text-gray-300 transition-all duration-500">
-       A holistic evaluation of your property covering civil works, finishes, safety, and compliance to identify visible and hidden defects before handover.
+      Thorough 100+ point inspection of newly built homes before possession—covering civil, electrical, plumbing, and safety checks.
       </p>
       <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
         <span>Learn More</span>

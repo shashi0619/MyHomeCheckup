@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
 import Services from "./Services/Services";
+import WhatWeCheck from "./WhatWeCheck/WhatWeCheck";
 import About from "./About/About";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import Software from "./Software/Software";
@@ -31,6 +32,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Hero />
       <Services />
+      <WhatWeCheck />
       <About />
       <WhyChoose />
       <Software />

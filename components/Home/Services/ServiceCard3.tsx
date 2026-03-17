@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 type Props = {
@@ -21,7 +20,7 @@ const ServiceCard3 = ({ image, title }: Props) => {
         {title}
       </h1>
       <p className="mt-4 font-medium text-gray-500 dark:text-gray-200 group-hover:text-gray-300 transition-all duration-500">
-Inspection of pipelines, fittings, drainage flow, leakage points, water pressure, and sanitary installations to ensure long-term reliability.   </p>
+Verify builder-promised specs on newly built properties—civil finish, tiling, plumbing, electrical, and RERA-mandated area checks.   </p>
       <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
         <span>Learn More</span>
         <span>

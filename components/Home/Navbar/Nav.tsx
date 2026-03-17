@@ -27,25 +27,26 @@ const Nav = ({ openNav }: Props) => {
 
   return (
     <div
-      className={`transition-all ${
-        navBg ? "bg-blue-900 shadow-md" : "fixed"
-      } duration-200 h-[12vh] z-[100] fixed w-full  `}
+      className={`transition-all duration-200 h-[12vh] z-100 fixed w-full ${
+        navBg
+          ? "bg-white dark:bg-blue-900 shadow-md"
+          : "bg-white/80 dark:bg-transparent backdrop-blur-sm"
+      }`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <div className="flex items-center space-x-2">
-         <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
-<Image
-  src="/images/WL2.png"
-  alt="logo"
-  width={48}    
-  height={48}
-  className="w-12 h-12"
-/>
-    </div>
-
-          <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
-           MyHomeCheckup
+          <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
+            <Image
+              src="/images/WL2.png"
+              alt="logo"
+              width={48}
+              height={48}
+              className="w-12 h-12"
+            />
+          </div>
+          <h1 className="text-xl hidden sm:block md:text-2xl text-gray-900 dark:text-white font-bold">
+            MyHomeCheckup
           </h1>
         </div>
         {/* Navlinks */}
@@ -55,7 +56,7 @@ const Nav = ({ openNav }: Props) => {
               <Link
                 href={link.url}
                 key={link.id}
-                className="text-white text-lg hover:text-pink-300 font-semibold transition-all duration-200"
+                className="text-gray-700 dark:text-white text-lg hover:text-blue-600 dark:hover:text-pink-300 font-semibold transition-all duration-200"
               >
                 <p>{link.label}</p>
               </Link>
@@ -64,7 +65,7 @@ const Nav = ({ openNav }: Props) => {
         </div>
         {/* buttons */}
         <div className="flex items-center space-x-4">
-          {/* 1st button create account button */}
+          {/* Contact Us button */}
           <a
             href="https://calendly.com/hitworkhub"
             className="px-5 py-2.5 relative rounded group font-medium text-white inline-block"
@@ -80,7 +81,7 @@ const Nav = ({ openNav }: Props) => {
           {/* Burger Menu */}
           <HiBars3BottomRight
             onClick={openNav}
-            className="w-8 h-8 cursor-pointer text-white lg:hidden"
+            className="w-8 h-8 cursor-pointer text-gray-700 dark:text-white lg:hidden"
           />
         </div>
       </div>

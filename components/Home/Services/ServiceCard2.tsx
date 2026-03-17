@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 type Props = {
@@ -21,7 +20,7 @@ const ServiceCard2 = ({ image, title }: Props) => {
         {title}
       </h1>
       <p className="mt-4 font-medium text-gray-500 dark:text-gray-200 group-hover:text-gray-300 transition-all duration-500">
-Detailed inspection of flooring, walls, ceilings, plastering, alignment, slopes, cracks, dampness, and overall workmanship quality.      </p>
+Comprehensive assessment of resale properties to uncover hidden defects, dampness, outdated wiring, and structural wear before purchase.      </p>
       <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
         <span>Learn More</span>
         <span>

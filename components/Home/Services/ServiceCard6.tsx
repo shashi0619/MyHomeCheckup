@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 type Props = {
@@ -21,7 +20,7 @@ const ServiceCard6 = ({ image, title }: Props) => {
         {title}
       </h1>
       <p className="mt-4 font-medium text-gray-500 dark:text-gray-200 group-hover:text-gray-300 transition-all duration-500">
-Early detection of termite activity and pest-prone areas to protect your property from long-term structural damage.</p>
+Follow-up inspection to verify that previously identified defects and punch-list items have been corrected by the builder.</p>
       <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
         <span>Learn More</span>
         <span>

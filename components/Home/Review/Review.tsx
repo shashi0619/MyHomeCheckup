@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ReviewCard from "./ReviewCard";
@@ -34,7 +33,7 @@ const Review = () => {
               TESTIMONIALS
             </h1>
             <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-              Trusted By Industry Leaders Clietns
+              Trusted By Homeowners Across Hyderabad
             </h1>
           </div>
           <div className="lg:ml-auto">
@@ -57,21 +56,24 @@ const Review = () => {
           >
             <ReviewCard
               reviewTitle="Highly Professional, Great Work!!"
-              userName="sakshi"
+              reviewDescription="MyHomeCheckup found issues in my new flat that the builder had completely overlooked—hollow tiles, improper slope in the bathroom, and a leaking pipe behind the wall. The detailed report helped me get everything fixed before possession."
+              userName="Sakshi"
               userImage="/images/c1.png"
-              role="project Manager"
+              role="Project Manager"
             />
             <ReviewCard2
-              reviewTitle="Creative Work!"
+              reviewTitle="Saved Me from a Costly Mistake!"
+              reviewDescription="I was about to buy a resale flat without an inspection. MyHomeCheckup identified major dampness behind the walls and a faulty electrical panel. Their report gave me strong grounds to negotiate the price down significantly."
               userName="Hari"
               userImage="/images/c2.png"
-              role="Marketing Manager"
+              role="IT Professional"
             />
             <ReviewCard2
-              reviewTitle="Awesome Work!"
+              reviewTitle="Thorough, Detailed & Worth Every Rupee"
+              reviewDescription="The team used thermal cameras and moisture meters to detect seepage that wasn't visible to the naked eye. The digital report with photos and severity ratings was easy to share with the builder and get repairs done."
               userName="Thilak"
               userImage="/images/c3.png"
-              role="building Engineer"
+              role="Building Engineer"
             />
           </Carousel>
         </div>

@@ -24,7 +24,7 @@ const ThemeToogler = () => {
       {currentTheme === "dark" ? (
         <BiSun className="text-white w-8 h-8 cursor-pointer" />
       ) : (
-        <BiMoon className="text-white w-8 h-8 cursor-pointer" />
+        <BiMoon className="text-gray-700 w-8 h-8 cursor-pointer" />
       )}
     </button>
   );

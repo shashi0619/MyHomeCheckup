@@ -1,15 +1,15 @@
 import Image from "next/image";
-import React from "react";
 import { FaStar } from "react-icons/fa";
 
 type Props = {
   reviewTitle: string;
+  reviewDescription: string;
   userName: string;
   userImage: string;
   role: string;
 };
 
-const ReviewCard2 = ({ reviewTitle, role, userImage, userName }: Props) => {
+const ReviewCard2 = ({ reviewTitle, reviewDescription, role, userImage, userName }: Props) => {
   return (
     <div className="bg-gray-100 p-6 rounded-lg mr-4 shadow-md">
       <h1 className="text-2xl text-black font-bold">{reviewTitle}</h1>
@@ -21,9 +21,9 @@ const ReviewCard2 = ({ reviewTitle, role, userImage, userName }: Props) => {
         <FaStar className="text-yellow-500 w-5 h-6" />
       </div>
       <p className="mt-4 text-base md:text-lg font-medium text-gray-800">
-        They offer great service at a very reasonable price, even lower than local contractors, with a customer-friendly payment process. I booked them for the waterproofing and painting in my house, and they did a great job. 
+        {reviewDescription}
       </p>
-      <span className="block w-full h-[1px] bg-gray-300 mt-6 mb-6"></span>
+      <span className="block w-full  bg-gray-300 mt-6 mb-6"></span>
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <Image
